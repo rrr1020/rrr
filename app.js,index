@@ -67,4 +67,9 @@ function Footer(){
 }
 
 export default Footer;
+....................................
+FROM node:alpine
+COPY . /app
+WORKDIR /app
+CMD node node1.js
 
